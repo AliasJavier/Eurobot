@@ -1,0 +1,18 @@
+PLACA POTENCIA;;;;;;
+Id;Identificador;Empaquetado;Cantidad;Identificación;RS Amidata;Cetronic
+1;H3,H2,H1;MountingHole_3.2mm_M3_ISO7380;3;MountingHole;;
+2;Alimentación,Extra;CONECTOR MACHO RECTO PCB 4 PIN 5.08 mm;2;Screw_Terminal_01x04;;CO-31004
+3;Portafusibles;Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed;5;FuseHolder;415-042 ;
+4;Pines hembra 1x01 para reguladores de 12v;PinSocket_1x01_P2.54mm_Vertical;8;Conn_01x01_Female;267-7400;
+5;Pines 1x05 para reguladores de 5v;PinSocket_1x05_P2.54mm_Vertical;3;Conn_01x05_Female;267-7400;
+6;Salida;CONECTOR MACHO RECTO PCB 6 PIN 5.08mm;1;Screw_Terminal_01x06;;CO-31006
+7;Fusibles;Fusible de cartucho RS PRO 10A Vidrio, 5 x 20mm;5;Fuse;563-643;
+;;;;;;
+PLACA NEUMATICA;;;;;;
+Id;Identificador;Empaquetado;Cantidad;Identificación;RS Amidata;Cetronic
+8;Salida;CONECTOR MACHO RECTO PCB 6 PIN 5.08mm;1;Salida 12v;;CO-31006
+9;Pines hembra 1x03 para transistores;PinSocket_1x03_P2.54mm_Vertical;5;Conn_01x03_Male;267-7400;
+10;Alimentacion;CONECTOR MACHO RECTO PCB 2 PIN 5.08 mm;1;Screw_Terminal_01x02;;CO-31002
+11;Entrada Digital;CONECTOR MACHO RECTO PCB 6 PIN 5.08mm;1;Entrada Digital;;CO-31006
+12;H2, H1;MountingHole_3.2mm_M3_ISO7380;2;MountingHole;;
+13;Transistores;MOSFET, BUZ11_NR4941, N-Canal-Canal, 30 A, 50 V, 3-Pin, TO-220AB Simple Si;5;;124-1349;BUZ11

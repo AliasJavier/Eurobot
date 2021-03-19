@@ -1,0 +1,7 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"G***";"logo";1;"LOGO";;;
+2;"SALIDAS                12V";"PhoenixContact_MCV_1,5_6-G-5.08_1x06_P5.08mm_Vertical";1;"Salida 12v";;;
+3;"S   D   G, , , , ";"PinSocket_1x03_P2.54mm_Vertical";5;"Conn_01x03_Male";;;
+4;"GND      12V";"PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical";1;"Screw_Terminal_01x02";;;
+5;"X              ENTRADAS";"PhoenixContact_MCV_1,5_6-G-5.08_1x06_P5.08mm_Vertical";1;"Entrada Digital";;;
+6;" , ";"MountingHole_3.2mm_M3_ISO7380";2;"MountingHole";;;
