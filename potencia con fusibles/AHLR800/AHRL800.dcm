@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AHRL800
+D PPTC resettable device with compact size designed for the automotive industry. It is a 16 V high-temperature, lead-free, radial leaded resettable device that meets Littelfuses Automotive qualification.
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_pptc_ahrl_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AHRL800
+#/13680949/463648/2.49/2/2/Fuse
+DEF AHRL800 F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "AHRL800" 550 150 50 H V L CNN
+F2 "AHRL800AP" 550 50 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_pptc_ahrl_datasheet.pdf.pdf" 550 -50 50 H I L CNN
+F4 "PPTC resettable device with compact size designed for the automotive industry. It is a 16 V high-temperature, lead-free, radial leaded resettable device that meets Littelfuses Automotive qualification." 550 -150 50 H I L CNN "Description"
+F5 "20.4" 550 -250 50 H I L CNN "Height"
+F6 "650-AHRL800" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/AHRL800?qs=zW32dvEIR3tzgY%252BT0dWruw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "AHRL800" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\jfjav\OneDrive\Escritorio\Kicad\potencia\potencia.sch</source>
+    <date>22/11/2020 16:27:01</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>potencia.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Alimentación1">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>Connector:FanPinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9BFAA0</tstamp>
+    </comp>
+    <comp ref="Extra1">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>Connector:FanPinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C2749</tstamp>
+    </comp>
+    <comp ref="Regulador5.2">
+      <value>Conn_01x05_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D655D</tstamp>
+    </comp>
+    <comp ref="Regulador5.1">
+      <value>Conn_01x05_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D7729</tstamp>
+    </comp>
+    <comp ref="Regulador5.3">
+      <value>Conn_01x05_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D7ADB</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS FUSE">563-643</field>
+        <field name="RS PF">415-042 </field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9DFE84</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS FUSE">563-643</field>
+        <field name="RS PF">415-042 </field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E0519</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS FUSE">563-643</field>
+        <field name="RS PF">415-042 </field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E1975</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS FUSE">563-643</field>
+        <field name="RS PF">415-042 </field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E2038</tstamp>
+    </comp>
+    <comp ref="PO12.1">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA073FB</tstamp>
+    </comp>
+    <comp ref="PI12.2">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA06DE0</tstamp>
+    </comp>
+    <comp ref="NO12.2">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0699B</tstamp>
+    </comp>
+    <comp ref="NI12.2">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA06553</tstamp>
+    </comp>
+    <comp ref="NO12.1">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9FFCED</tstamp>
+    </comp>
+    <comp ref="PO12.2">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D8192</tstamp>
+    </comp>
+    <comp ref="PI12.1">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D7FF0</tstamp>
+    </comp>
+    <comp ref="NI12.1">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS">267-7400</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D6F09</tstamp>
+    </comp>
+    <comp ref="Salida1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>Connector:FanPinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F2734</tstamp>
+    </comp>
+    <comp ref="Salida2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>Connector:FanPinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F48D8</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA9B341</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA9BC04</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA9BFE2</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="RS FUSE">563-643</field>
+        <field name="RS PF">415-042 </field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E1E1E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Female">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Extra1-Pad1)">
+      <node ref="Extra1" pin="1"/>
+      <node ref="Salida1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(F3-Pad1)">
+      <node ref="Salida1" pin="3"/>
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(F4-Pad1)">
+      <node ref="F4" pin="1"/>
+      <node ref="Salida2" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Salida2" pin="1"/>
+      <node ref="Alimentación1" pin="2"/>
+      <node ref="Alimentación1" pin="1"/>
+      <node ref="Regulador5.1" pin="3"/>
+      <node ref="Regulador5.3" pin="3"/>
+      <node ref="Regulador5.2" pin="3"/>
+      <node ref="Extra1" pin="4"/>
+      <node ref="NI12.1" pin="1"/>
+      <node ref="NO12.1" pin="1"/>
+      <node ref="NO12.2" pin="1"/>
+      <node ref="NI12.2" pin="1"/>
+    </net>
+    <net code="5" name="+15V">
+      <node ref="PI12.1" pin="1"/>
+      <node ref="Alimentación1" pin="4"/>
+      <node ref="PI12.2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Regulador5.1-Pad2)">
+      <node ref="Regulador5.1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Regulador5.3-Pad4)">
+      <node ref="Regulador5.3" pin="4"/>
+    </net>
+    <net code="8" name="Net-(Regulador5.3-Pad2)">
+      <node ref="Regulador5.3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Regulador5.2-Pad2)">
+      <node ref="Regulador5.2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(Regulador5.2-Pad4)">
+      <node ref="Regulador5.2" pin="4"/>
+    </net>
+    <net code="11" name="Net-(Regulador5.1-Pad4)">
+      <node ref="Regulador5.1" pin="4"/>
+    </net>
+    <net code="12" name="Net-(Extra1-Pad2)">
+      <node ref="F2" pin="1"/>
+      <node ref="Extra1" pin="2"/>
+      <node ref="Salida1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(Extra1-Pad3)">
+      <node ref="Extra1" pin="3"/>
+      <node ref="F5" pin="1"/>
+      <node ref="Salida2" pin="3"/>
+    </net>
+    <net code="14" name="12.1">
+      <node ref="F4" pin="2"/>
+      <node ref="PO12.2" pin="1"/>
+    </net>
+    <net code="15" name="+BATT">
+      <node ref="Alimentación1" pin="3"/>
+      <node ref="Regulador5.2" pin="1"/>
+      <node ref="Regulador5.1" pin="1"/>
+      <node ref="Regulador5.3" pin="1"/>
+    </net>
+    <net code="16" name="5.1">
+      <node ref="F1" pin="2"/>
+      <node ref="Regulador5.1" pin="5"/>
+    </net>
+    <net code="17" name="5.2">
+      <node ref="F2" pin="2"/>
+      <node ref="Regulador5.2" pin="5"/>
+    </net>
+    <net code="18" name="5.3">
+      <node ref="F3" pin="2"/>
+      <node ref="Regulador5.3" pin="5"/>
+    </net>
+    <net code="19" name="12.2">
+      <node ref="F5" pin="2"/>
+      <node ref="PO12.1" pin="1"/>
+    </net>
+  </nets>
+</export>

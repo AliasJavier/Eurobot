@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AHRL800)(type Legacy)(uri ${KIPRJMOD}/AHLR800/AHRL800.lib)(options "")(descr ""))
+)
