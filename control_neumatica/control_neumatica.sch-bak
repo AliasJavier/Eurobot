@@ -41,7 +41,7 @@ U 1 1 5FC3F32F
 P 1700 2700
 F 0 "J1" H 1618 2175 50  0000 C CNN
 F 1 "Entrada Digital" H 1618 2266 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 1700 2700 50  0001 C CNN
+F 2 "Conector_Eurobot:Conector_6p_5.08" H 1700 2700 50  0001 C CNN
 F 3 "~" H 1700 2700 50  0001 C CNN
 	1    1700 2700
 	-1   0    0    1   
@@ -130,17 +130,6 @@ Wire Notes Line
 	1200 1950 2500 1950
 Text Notes 1550 1900 0    50   ~ 0
 Entrada Digital\n
-$Comp
-L power:+12V #PWR06
-U 1 1 5FC71976
-P 8150 3550
-F 0 "#PWR06" H 8150 3400 50  0001 C CNN
-F 1 "+12V" H 8165 3723 50  0000 C CNN
-F 2 "" H 8150 3550 50  0001 C CNN
-F 3 "" H 8150 3550 50  0001 C CNN
-	1    8150 3550
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6800 2150 6800 5750
 Wire Notes Line
@@ -164,12 +153,12 @@ TRANSISTORES\n\n
 Text Notes 4250 1200 0    197  ~ 0
 PLACA NEUMÁTICA
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J2
 U 1 1 5FDB5E68
 P 1900 4650
-F 0 "J?" V 1772 4730 50  0000 L CNN
+F 0 "J2" V 1772 4730 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" V 1863 4730 50  0000 L CNN
-F 2 "" H 1900 4650 50  0001 C CNN
+F 2 "Conector_Eurobot:Conector_2p_5.08" H 1900 4650 50  0001 C CNN
 F 3 "~" H 1900 4650 50  0001 C CNN
 	1    1900 4650
 	0    1    1    0   
@@ -180,54 +169,54 @@ Wire Wire Line
 	1650 4450 1800 4450
 NoConn ~ 1900 2400
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J3
 U 1 1 5FDBDF32
 P 5250 2700
-F 0 "J?" H 5222 2632 50  0000 R CNN
+F 0 "J3" H 5222 2632 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 5222 2723 50  0000 R CNN
-F 2 "" H 5250 2700 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5250 2700 50  0001 C CNN
 F 3 "~" H 5250 2700 50  0001 C CNN
 	1    5250 2700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J4
 U 1 1 5FDBF43A
 P 5250 3150
-F 0 "J?" H 5222 3082 50  0000 R CNN
+F 0 "J4" H 5222 3082 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 5222 3173 50  0000 R CNN
-F 2 "" H 5250 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5250 3150 50  0001 C CNN
 F 3 "~" H 5250 3150 50  0001 C CNN
 	1    5250 3150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J5
 U 1 1 5FDBF794
 P 5250 3700
-F 0 "J?" H 5222 3632 50  0000 R CNN
+F 0 "J5" H 5222 3632 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 5222 3723 50  0000 R CNN
-F 2 "" H 5250 3700 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5250 3700 50  0001 C CNN
 F 3 "~" H 5250 3700 50  0001 C CNN
 	1    5250 3700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J6
 U 1 1 5FDC05B1
 P 5250 4100
-F 0 "J?" H 5222 4032 50  0000 R CNN
+F 0 "J6" H 5222 4032 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 5222 4123 50  0000 R CNN
-F 2 "" H 5250 4100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5250 4100 50  0001 C CNN
 F 3 "~" H 5250 4100 50  0001 C CNN
 	1    5250 4100
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5FDC10AF
 P 3800 4850
-F 0 "#PWR?" H 3800 4600 50  0001 C CNN
+F 0 "#PWR0101" H 3800 4600 50  0001 C CNN
 F 1 "GND" H 3805 4677 50  0000 C CNN
 F 2 "" H 3800 4850 50  0001 C CNN
 F 3 "" H 3800 4850 50  0001 C CNN
@@ -269,12 +258,12 @@ Wire Wire Line
 Wire Wire Line
 	3800 3800 5050 3800
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J7
 U 1 1 5FDC0C6E
 P 5250 4550
-F 0 "J?" H 5222 4482 50  0000 R CNN
+F 0 "J7" H 5222 4482 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 5222 4573 50  0000 R CNN
-F 2 "" H 5250 4550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5250 4550 50  0001 C CNN
 F 3 "~" H 5250 4550 50  0001 C CNN
 	1    5250 4550
 	-1   0    0    1   
@@ -289,25 +278,48 @@ Text GLabel 5050 3150 0    50   Input ~ 0
 O2
 Text GLabel 5050 2700 0    50   Input ~ 0
 O1
+Text GLabel 8000 3950 0    50   Input ~ 0
+O5
+Text GLabel 8000 3850 0    50   Input ~ 0
+O4
+Text GLabel 8000 3750 0    50   Input ~ 0
+O3
+Text GLabel 8000 3650 0    50   Input ~ 0
+O2
+Text GLabel 8000 3550 0    50   Input ~ 0
+O1
+$Comp
+L power:+12V #PWR06
+U 1 1 5FC71976
+P 8000 3450
+F 0 "#PWR06" H 8000 3300 50  0001 C CNN
+F 1 "+12V" H 8015 3623 50  0000 C CNN
+F 2 "" H 8000 3450 50  0001 C CNN
+F 3 "" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 J9
 U 1 1 5FC4195A
 P 8350 3750
 F 0 "J9" H 8430 3742 50  0000 L CNN
 F 1 "Salida 12v" H 8430 3651 50  0000 L CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 8350 3750 50  0001 C CNN
+F 2 "Conector_Eurobot:Conector_6p_5.08" H 8350 3750 50  0001 C CNN
 F 3 "~" H 8350 3750 50  0001 C CNN
 	1    8350 3750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-Text GLabel 8150 3650 0    50   Input ~ 0
-O1
-Text GLabel 8150 3750 0    50   Input ~ 0
-O2
-Text GLabel 8150 3850 0    50   Input ~ 0
-O3
-Text GLabel 8150 3950 0    50   Input ~ 0
-O4
-Text GLabel 8150 4050 0    50   Input ~ 0
-O5
+Wire Wire Line
+	8000 3450 8150 3450
+Wire Wire Line
+	8000 3550 8150 3550
+Wire Wire Line
+	8000 3650 8150 3650
+Wire Wire Line
+	8000 3750 8150 3750
+Wire Wire Line
+	8000 3850 8150 3850
+Wire Wire Line
+	8000 3950 8150 3950
 $EndSCHEMATC

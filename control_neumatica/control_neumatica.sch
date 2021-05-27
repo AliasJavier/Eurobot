@@ -41,7 +41,7 @@ U 1 1 5FC3F32F
 P 1700 2700
 F 0 "J1" H 1618 2175 50  0000 C CNN
 F 1 "Entrada Digital" H 1618 2266 50  0000 C CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_6-G-5.08_1x06_P5.08mm_Vertical" H 1700 2700 50  0001 C CNN
+F 2 "Conector_Eurobot:Conector_6p_5.08" H 1700 2700 50  0001 C CNN
 F 3 "~" H 1700 2700 50  0001 C CNN
 	1    1700 2700
 	-1   0    0    1   
@@ -130,17 +130,6 @@ Wire Notes Line
 	1200 1950 2500 1950
 Text Notes 1550 1900 0    50   ~ 0
 Entrada Digital\n
-$Comp
-L power:+12V #PWR06
-U 1 1 5FC71976
-P 8150 3550
-F 0 "#PWR06" H 8150 3400 50  0001 C CNN
-F 1 "+12V" H 8165 3723 50  0000 C CNN
-F 2 "" H 8150 3550 50  0001 C CNN
-F 3 "" H 8150 3550 50  0001 C CNN
-	1    8150 3550
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6800 2150 6800 5750
 Wire Notes Line
@@ -163,17 +152,6 @@ Text Notes 4850 2200 0    50   ~ 0
 TRANSISTORES\n\n
 Text Notes 4250 1200 0    197  ~ 0
 PLACA NEUMÁTICA
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 5FDB5E68
-P 1900 4650
-F 0 "J2" V 1772 4730 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" V 1863 4730 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 1900 4650 50  0001 C CNN
-F 3 "~" H 1900 4650 50  0001 C CNN
-	1    1900 4650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1900 4450 1950 4450
 Wire Wire Line
@@ -289,25 +267,59 @@ Text GLabel 5050 3150 0    50   Input ~ 0
 O2
 Text GLabel 5050 2700 0    50   Input ~ 0
 O1
+Text GLabel 8000 3950 0    50   Input ~ 0
+O5
+Text GLabel 8000 3850 0    50   Input ~ 0
+O4
+Text GLabel 8000 3750 0    50   Input ~ 0
+O3
+Text GLabel 8000 3650 0    50   Input ~ 0
+O2
+Text GLabel 8000 3550 0    50   Input ~ 0
+O1
+$Comp
+L power:+12V #PWR06
+U 1 1 5FC71976
+P 8000 3450
+F 0 "#PWR06" H 8000 3300 50  0001 C CNN
+F 1 "+12V" H 8015 3623 50  0000 C CNN
+F 2 "" H 8000 3450 50  0001 C CNN
+F 3 "" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 J9
 U 1 1 5FC4195A
 P 8350 3750
 F 0 "J9" H 8430 3742 50  0000 L CNN
 F 1 "Salida 12v" H 8430 3651 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_6-G-5.08_1x06_P5.08mm_Vertical" H 8350 3750 50  0001 C CNN
+F 2 "Conector_Eurobot:Conector_6p_5.08" H 8350 3750 50  0001 C CNN
 F 3 "~" H 8350 3750 50  0001 C CNN
 	1    8350 3750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-Text GLabel 8150 3650 0    50   Input ~ 0
-O1
-Text GLabel 8150 3750 0    50   Input ~ 0
-O2
-Text GLabel 8150 3850 0    50   Input ~ 0
-O3
-Text GLabel 8150 3950 0    50   Input ~ 0
-O4
-Text GLabel 8150 4050 0    50   Input ~ 0
-O5
+Wire Wire Line
+	8000 3450 8150 3450
+Wire Wire Line
+	8000 3550 8150 3550
+Wire Wire Line
+	8000 3650 8150 3650
+Wire Wire Line
+	8000 3750 8150 3750
+Wire Wire Line
+	8000 3850 8150 3850
+Wire Wire Line
+	8000 3950 8150 3950
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5FDB5E68
+P 1800 4650
+F 0 "J2" V 1672 4730 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 1763 4730 50  0000 L CNN
+F 2 "Conector_Eurobot:Conector_2p_5.08" H 1800 4650 50  0001 C CNN
+F 3 "~" H 1800 4650 50  0001 C CNN
+	1    1800 4650
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
